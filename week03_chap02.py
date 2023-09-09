@@ -1,6 +1,7 @@
-# a = 7
-a = '7'
-# b = a + 99
-b = a + '99'
+a = 9.1
+print(a)
+b = a
 print(b)
-print(int(a)+int('99'))
+print(type(9.1))
+print(type(9.1) == int)
+print(isinstance(9.1, float))
