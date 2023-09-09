@@ -1,11 +1,7 @@
-students = [
-    "yjy",
-    "jha",
-    "thk",
-    "ycy",
-    "jhr",
-    "tgk",
-    ]
-print(students[-6])
-print(students[0])
-
+teacher = {
+ "Kim": "python",
+ "Park": "statistics",
+ "Lee": "mathmatics",
+ }
+lecturer = "Lee"
+print(lecturer, ":", teacher[lecturer])
