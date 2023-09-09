@@ -6,6 +6,6 @@ students = [
     "jhr",
     "tgk",
     ]
-print(students[-2])
-print(students[4])
+print(students[-6])
+print(students[0])
 
