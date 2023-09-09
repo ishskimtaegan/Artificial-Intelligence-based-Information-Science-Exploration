@@ -1,7 +1,13 @@
-age = int(input("나이는 : "))
-print(age >= 19)
+subjects = ["파이썬", "음악", "체육"]
+print(subjects)
+subjects[1] = "통계학"  # mutable
+print(subjects)
+# True = False  # immutable
 
-if age >= 19:
-    print("극장 입장이 가능합니다")
-else:
-    print("미성년자는 입장이 불가합니다")
+teacher = "김과학"
+print(teacher)
+teacher = "박수학"
+print(teacher)
+# 99 = 7
+# "kim" = "park"
+score = 100
