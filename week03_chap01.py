@@ -1,3 +1,11 @@
-for countdown in range(5, 0, -1):
-    print(countdown)
-print("Hi")
+students = [
+    "yjy",
+    "jha",
+    "thk",
+    "ycy",
+    "jhr",
+    "tgk",
+    ]
+print(students[-2])
+print(students[4])
+
