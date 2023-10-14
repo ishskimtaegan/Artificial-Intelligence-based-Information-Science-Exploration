@@ -1,9 +1,8 @@
-l1 = []
-l2 = list()
-if l1 == l2:
-    print("empty lists")
-    print(type(l1), type(l2))
-    print(l1, l2)
-
-l3 = 'ishs'
-print(list(l3))
+subjects_text = "music english python"
+subjects_list = subjects_text.split()  # space bar
+# subjects_list = subjects_text.split('i')  # i
+# subjects_list = subjects_text.split('ish')  # ish
+print(subjects_text)
+print(subjects_list)
+print(subjects_list[-3])  # reverse indexing
+print(subjects_list[0])
