@@ -6,3 +6,5 @@ print(subjects_text)
 print(subjects_list)
 print(subjects_list[-3])  # reverse indexing
 print(subjects_list[0])
+# print(subjects_list[-4])  # IndexError: list index out of range
+# print(subjects_list[3])  # IndexError: list index out of range
