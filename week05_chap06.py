@@ -11,3 +11,6 @@
 
 for i in range(5, 0, -1): # 5부터 0보다 클 때까지 -1씩 감소
     print(i)
+
+print(list(range(0, 10, 3)))
+print(list(range(0, 10, 2)))
