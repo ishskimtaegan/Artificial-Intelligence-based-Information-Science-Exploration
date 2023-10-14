@@ -1,7 +1,5 @@
 texts = 'ishs'
-# index = 0
-# while index < len(texts):
-#     print(texts[index].upper())
-#     index = index + 1
 for text in texts:
+    if text == 's':
+        break
     print(text.upper())
