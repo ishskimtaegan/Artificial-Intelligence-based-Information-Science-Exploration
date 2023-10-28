@@ -21,11 +21,25 @@ print(trolly)
 
 #trolly[1:2] = '아이폰15'  # ['김광석CD', '아', '이', '폰', '1', '5', ['딸기', '멸치', '다시마']]
 
-trolly[1:2] = ['아이폰15']  # 아이폰15프로 -> 아이폰15
+#trolly[1:2] = ['아이폰15']  # 아이폰15프로 -> 아이폰15
+trolly[1:2] = ('아이폰15',)  # 아이폰15프로 -> 아이폰15
 print(trolly)
-
-
-
+# 3가지 삭제 방법
+# print(trolly.pop(0))
+# print(trolly.remove('김광석CD'))
+del trolly[0]
+print(trolly)
+# trolly.clear()  # 리스트 원소 모두 삭제
+print(trolly.index('아이폰15'))
+print(trolly)
+print('아이폰15' in trolly)
+print('멸치' in trolly)
+print('멸치' in trolly[1])
+print(trolly.count('감자'))
+print(trolly.count('아이폰15'))
+trolly.append('아이폰15')
+print(trolly)
+print(trolly.count('아이폰15'))
 # numbers1 = list()
 # numbers2 = [-9, 0, 7]
 # for i in range(0, 5):
